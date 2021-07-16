@@ -1,43 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vẫn là đa phương tiện</title>
-  </head>
+<html lang="vi">
 
-  <body>
-    <p>Để chèn một đoạn phim vào, ta thêm vào thẻ &lt;video&gt;</p>
-    <video controls width="640" height="480">
-      <source src="/media/Big Bick Bunny.mp4" type="video/mp4" />
-      Máy bạn cùi quá không chạy video được
-    </video>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vẫn là đa phương tiện</title>
+</head>
 
-    <p>Trong thẻ &lt;video&gt; có thể có các thuộc tính như:</p>
-    <ul>
-      <li><i>controls</i> giúp bạn có thể dừng, phát hay tăng giảm âm lượng.</li>
-      <li><i>width</i> và <i>height</i> để lưu lại kích thước, thuận tiện cho việc tính toán bố cục sau này.</li>
-      <li><i>autoplay</i> sẽ tự động phát nhạc.</li>
-      <li><i>muted</i> để bật chế độ câm lặng.</li>
-    </ul>
+<body>
+  <p>Để chèn một đoạn phim vào, ta thêm vào thẻ &lt;video&gt;</p>
+  <video controls width="640" height="480">
+    <source src="/media/Big Bick Bunny.mp4" type="video/mp4" />
+    Máy bạn cùi quá không chạy video được
+  </video>
 
-    <h2>Tối ưu hóa</h2>
-    <p>Trong thẻ &lt;video&gt; ta thêm các thẻ &lt;source&gt; chứa 2 thuộc tính </p>
-    <ol>
-        <li><i>src</i> chứa địa chỉ tệp tin.</li>
-        <li>
-            <i>type</i> lưu định dạng của tệp.
-            <ul>
-                <li>Đuôi .mp4 có giá trị là "video/mp4"</li>
-                <li>Đuôi .ogg có giá trị là "video/ogg"</li>
-                <li>Đuôi .webm có giá trị là "video/webm"</li>
-            </ul>
-        </li>
-    </ol>
-    <p>Có thể có nhiều thẻ &lt;source&gt;</p>
+  <p>Trong thẻ &lt;video&gt; có thể có các thuộc tính như:</p>
+  <ul>
+    <li><i>controls</i> giúp bạn có thể dừng, phát hay tăng giảm âm lượng.</li>
+    <li><i>width</i> và <i>height</i> để lưu lại kích thước, thuận tiện cho việc tính toán bố cục sau này.</li>
+    <li><i>autoplay</i> sẽ tự động phát nhạc.</li>
+    <li><i>muted</i> để bật chế độ câm lặng.</li>
+  </ul>
 
-    <p>Trước khi đóng thẻ &lt;audio&gt; ta ghi thêm một dòng thông báo nếu trình duyệt của dùng không thể phát video được.</p>
-    <a href="/navigation.html">Hiểu rồi</a>
-  </body>
+  <h2>Tối ưu hóa</h2>
+  <p>Trong thẻ &lt;video&gt; ta thêm các thẻ &lt;source&gt; chứa 2 thuộc tính </p>
+  <ol>
+    <li><i>src</i> chứa địa chỉ tệp tin.</li>
+    <li>
+      <i>type</i> lưu định dạng của tệp.
+      <ul>
+        <li>Đuôi .mp4 có giá trị là "video/mp4"</li>
+        <li>Đuôi .ogg có giá trị là "video/ogg"</li>
+        <li>Đuôi .webm có giá trị là "video/webm"</li>
+      </ul>
+    </li>
+  </ol>
+  <p>Có thể có nhiều thẻ &lt;source&gt;</p>
+
+  <p>Trước khi đóng thẻ &lt;audio&gt; ta ghi thêm một dòng thông báo nếu trình duyệt của dùng không thể phát video được.
+  </p>
+  <a href="/navigation.html">Hiểu rồi</a>
+</body>
+
 </html>
