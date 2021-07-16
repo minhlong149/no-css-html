@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đa phương tiện</title>
+</head>
+<body>
+    <p>Để thêm âm thanh vào, ta thêm vào thẻ &lt;audio&gt; </p>
+    <audio controls>
+        <source src="/media/Impact Moderato - Kevin MacLeod.mp3" type="audio/mpeg">
+    Máy bạn gà quá không chạy tệp âm thanh được
+    </audio>
+
+    <p>Trong thẻ &lt;audio&gt; có thể có các thuộc tính như:</p>
+    <ul>
+        <li><i>controls</i> giúp bạn có thể dừng, phát hay tăng giảm âm lượng.</li>
+        <li><i>autoplay</i> sẽ tự động phát nhạc.</li>
+        <li><i>muted</i> để bật chế độ câm lặng.</li>
+    </ul>
+
+    <h2>Tối ưu hóa</h2>
+    <p>Trong thẻ &lt;audio&gt; ta thêm các thẻ &lt;source&gt; chứa 2 thuộc tính </p>
+    <ol>
+        <li><i>src</i> chứa địa chỉ tệp tin.</li>
+        <li>
+            <i>type</i> lưu định dạng của tệp.
+            <ul>
+                <li>Đuôi .mp3 có giá trị là "audio/mpeg"</li>
+                <li>Đuôi .ogg có giá trị là "audio/ogg"</li>
+                <li>Đuôi .wav có giá trị là "audio/wav"</li>
+            </ul>
+        </li>
+    </ol>
+    <p>Có thể có nhiều thẻ &lt;source&gt;</p>
+
+    <p>Trước khi đóng thẻ &lt;audio&gt; ta ghi thêm một dòng thông báo nếu trình duyệt của dùng không hỗ trợ tệp âm thanh nào của ta.</p>
+    <a href="/navigation.html">OK được, hiểu</a>
+</body>
+</html>
